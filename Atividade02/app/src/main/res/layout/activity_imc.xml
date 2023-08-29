@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:text="CALCULADORA DE IMC" />
+
+    <EditText
+        android:id="@+id/inputAltura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Altura em m" />
+
+    <EditText
+        android:id="@+id/inputPeso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"
+        android:text="peso em kg" />
+
+    <Button
+        android:id="@+id/btCalcularIMC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:text="Calcular IMC" />
+
+    <TextView
+        android:id="@+id/outputIMC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
